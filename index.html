@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenge 12</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+        .customer-card {
+            border: 1px;
+            border-radius: 5px;
+            background-color: aqua;
+            color: black;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .customer-card:hover {
+            background-color: antiquewhite;
+        }
+        .metric-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding:  10px;
+            margin: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+</body>
+<!-- task 1 -->
+<!-- dashboard display -->
+<div id="dashboard"></div>
+
+<!-- task 2 -->
+<div class="metric-card">
+   <h3>Expenses</h3>
+   <p>$20,000</p>
+</div>
+<div class="metric-card">
+   <h3>Profit</h3>
+   <p>$60,000</p>
+</div>
+<!-- task 3 -->
+ <h3>Inventory List</h3>
+ <button id="addProductButton">Add Product</button>
+ <ul id="inventoryList"></ul>
+
+ <!-- task 4 -->
+  <h3>Customer Section</h3>
+  <div id="customerSection">
+    <div class="customer-card">Customer 1</div>
+    <div class="customer-card">Customer 2</div>
+    <div class="customer-card">Customer 3</div>
+</div>
+
+<script src="cc_12.js"></script>
+</body>
+</html>
